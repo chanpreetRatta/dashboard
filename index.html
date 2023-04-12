@@ -14,35 +14,59 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4ee15fb66b.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Dashboard</title>
-    <link rel="icon" href="images/icons/dashboard.png" />
   </head>
   <body>
     <div class="container">
       <div class="nav">Navigation</div>
       <div class="sidebar">
-        <h2>
-          <img
-            class="sprite"
-            src="/images/icons/dashboard.png"
-            alt="dashboard icon"
-          />
-          Dashboard
+        <h2 class="sidebar-menu">
+          <i class="fa fa-solid fa-dashboard"></i> Dashboard
         </h2>
-        <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Message</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-        </ul>
-
-        <ul>
-          <li>Setting</li>
-          <li>Support</li>
-          <li>Privacy</li>
-        </ul>
+        <section class="sidebar-menu-group">
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-home"></i>
+            Home
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-users"></i>
+            Profile
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-comments"></i>
+            Message
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-history"></i>
+            History
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-tasks"></i>
+            Tasks
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-people-arrows"></i>
+            Communities
+          </div>
+        </section>
+        <section class="sidebar-menu-group">
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-gear"></i>
+            Setting
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-support"></i>
+            Support
+          </div>
+          <div class="sidebar-menu">
+            <i class="fa fa-solid fa-shield"></i>
+            Privacy
+          </div>
+        </section>
       </div>
       <div class="main">Main</div>
     </div>
