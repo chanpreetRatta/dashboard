@@ -1,0 +1,48 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(219, 226, 232);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 4px; 
+}
+
+.sidebar{
+    background-color: rgb(27, 126, 201);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.nav{
+    background-color: black;
+}
+
+
+
+.main{
+    background-color: red;
+}
+
+/* sprite Image for the dashboard icons */
+.sprite { background: url('/images/dashboard-icons.png') no-repeat top left; width: 150px; height: 150px;  } 
+.sprite.privacy { background-position: 0 0; } 
+.sprite.support { background-position: -160px 0; } 
+.sprite.setting { background-position: -320px 0; } 
+.sprite.community { background-position: -480px 0; } 
+.sprite.task { background-position: -640px 0; } 
+.sprite.history { background-position: -800px 0; } 
+.sprite.message { background-position: -960px 0; } 
+.sprite.account { background-position: -1120px 0; } 
+.sprite.home { background-position: -1280px 0; } 
